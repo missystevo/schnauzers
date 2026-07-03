@@ -124,7 +124,7 @@ textarea:focus-visible, select:focus-visible {
 }
 .primary-nav a {
   display: block; padding: .55rem .8rem; border-radius: 8px;
-  font-weight: 600; text-decoration: none; color: var(--body);
+  font-weight: 600; text-decoration: none; color: var(--body); font-size: 1rem;
 }
 .primary-nav a:hover { background: var(--accent-soft); color: var(--accent-dark); }
 .primary-nav a[aria-current="page"] { color: var(--accent-dark); }
