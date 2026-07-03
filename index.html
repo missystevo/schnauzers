@@ -146,8 +146,13 @@
     </section>
   </main>
 
- <div id="footer">{% include footer.html %}</div>
+ <div id="footer"></div>
 
+<script>
+  fetch('footer.html')
+    .then(res => res.text())
+    .then(html => { document.getElementById('footer').innerHTML = html; });
+</script>
 
   <script src="js/script.js"></script>
 </body>
