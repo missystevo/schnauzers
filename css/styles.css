@@ -1,8 +1,5 @@
 /* ==========================================================================
    The Mini Schnauzer Guide — styles.css
-   Single external stylesheet controlling every page (SDEV153 requirement).
-   Palette built from the breed's "salt & pepper" coat. All colors meet
-   WCAG AA contrast (>=4.5:1 for text). Base text 18px, line-height >=1.5.
    ========================================================================== */
 
 /* ---- Design tokens ---- */
@@ -30,7 +27,6 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: var(--font-body);
-  font-size: 1.125rem;          /* 18px */
   line-height: 1.65;            /* >= 1.5 */
   color: var(--body);
   background: var(--paper);
