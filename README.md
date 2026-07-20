@@ -1,11 +1,5 @@
 # The Mini Schnauzer Guide
-
-A seven-page informational website about the **Miniature Schnauzer**, built with plain
-HTML5, one external CSS file, and vanilla JavaScript — ready to publish on GitHub Pages.
-Created for SDEV153.
-
 ---
-
 ## File structure
 
 ```
